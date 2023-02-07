@@ -36,7 +36,7 @@ export const TableContainer: React.FC<props> = ({ tableData, ...props }) => {
         .filter((user) => {
             const param = searchParams.get("search");
             if (!param) return true;
-            const regex = new RegExp(param, "g");
+            const regex = new RegExp(param, "gi");
 
             return (
                 regex.test(user.name) ||
