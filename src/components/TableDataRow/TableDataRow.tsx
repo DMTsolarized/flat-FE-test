@@ -107,6 +107,7 @@ const TableDataRow: React.FC<props> = ({
                                                 index > 0 ? "100%" : "inherit"
                                             }
                                             ml="5px"
+                                            textTransform="capitalize"
                                         >
                                             {rowData[keyPointer]}{" "}
                                             {secondaryKey &&
