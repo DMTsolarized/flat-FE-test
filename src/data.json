@@ -1,0 +1,169 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "username",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "Admin",
+            "status": true
+        },
+        {
+            "id": 1,
+            "name": "another one",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "Admin",
+            "status": true
+        },
+        {
+            "id": 2,
+            "name": "c",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 3,
+            "name": "d",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 4,
+            "name": "e",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 5,
+            "name": "last one",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 6,
+            "name": "truly last one",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 7,
+            "name": "truly last one",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 8,
+            "name": "truly last one",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 9,
+            "name": "thirdd last one",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": false
+        },
+        {
+            "id": 10,
+            "name": "Third",
+            "surname": "last",
+            "email": "customer@email.com",
+            "role": "User",
+            "status": true
+        }
+    ],
+    "permissions": [
+        {
+            "id": 0,
+            "label": "Super Admin"
+        },
+        {
+            "id": 1,
+            "label": "Permission Group 1",
+            "children": [
+                {
+                    "id": 11,
+                    "label": "Permission 11"
+                },
+                {
+                    "id": 12,
+                    "label": "Permission 12"
+                },
+                {
+                    "id": 13,
+                    "label": "Permission 13"
+                },
+                {
+                    "id": 14,
+                    "label": "Permission 14"
+                },
+                {
+                    "id": 15,
+                    "label": "Permission 15"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "label": "Permission Group 2",
+            "children": [
+                {
+                    "id": 21,
+                    "label": "Permission 21"
+                },
+                {
+                    "id": 22,
+                    "label": "Permission 22"
+                },
+                {
+                    "id": 23,
+                    "label": "Permission 23"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "label": "Permission Group 3",
+            "children": [
+                {
+                    "id": 31,
+                    "label": "Permission 31"
+                },
+                {
+                    "id": 32,
+                    "label": "Permission 32"
+                },
+                {
+                    "id": 33,
+                    "label": "Permission 33"
+                }
+            ]
+        }
+    ],
+    "userPermissions": [
+        {
+            "userId": 0,
+            "permissions": {
+                "1": [11,12,13,15]
+            }
+        }
+    ]
+}
+
